@@ -29,7 +29,8 @@ CREATE TABLE secret_room (
 		
 	seq BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
 	section_seq BIGINT NOT NULL,
-	nick_nm VARCHAR(100)
+	nick_nm VARCHAR(100),
+	use_yn VARCHAR(1)
 	
 );
 
